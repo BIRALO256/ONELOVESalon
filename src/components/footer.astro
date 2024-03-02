@@ -1,27 +1,37 @@
+---
+import { developer } from "../scripts/constanst";
 
-<div class="footer bg-jovic text-center py-10 pb-6 px-5  bottom-0 right-0 left-0 max-sm:pb-3 max-sm:pt-8">
-  <div class="container mx-auto flex flex-col text-zinc-300 gap-4 max-sm:flex-row max-sm:justify-between">
-    <div>
-      <p>
-        Copyright &copy; <span>JovicBiralo & Xephas</span>
-        <span id="copyrightDate"></span> - All Rights Reserved
-      </p>
-    </div>
+// Props (parameters) type declaration
 
+---
+
+
+
+
+<footer
+  id="footer"
+  class=`px-4 py-4 lg:px-10 space-y-1 text-xs text-center text-white bg-jovic`
+>
+
+  <!-- Right column for footer content -->
+  <div class="">
+    <p class="text-xl font-bold">{developer.copyright}</p>
+    <p class="mb-2 text-[12px]">
+      Website by
+      <a
+      href={developer.footerUrl}
+      class="underline text-red-800 font-bold hover:cursor-pointer text-xephas-white hover:text-xephas-yellow"
+      target="_blank"
+      rel="noopener">{developer.footerCollaborator} &rarr;</a>
+
+    </p>
+    <!-- Add any additional footer content here -->
   </div>
-</div>
+</footer>
+ 
 
 
-<style>
-footer{
-  padding-top: 20px;
-}
 
-</style>
 
-<!--Set current year as the date for the footer -->
-<!-- <script>
-  var date = new Date();
-  var year = date.getFullYear();
-  document.getElementById("copyrightDate").innerHTML = year;
-</script> -->
+
+

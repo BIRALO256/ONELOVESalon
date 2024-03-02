@@ -3,12 +3,21 @@ export default {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
 	theme: {
 		extend: {
+			padding:{
+				'1/3':'10.101010%',
+                '2/3':'66.6666%',
+			},
 			colors: {
-				"jovic-white": "#ffffff",
+				
+				"jovic": "#3E2723",
+				"jovic-white" :"#ffffff",
 				"xephas-navy": "#000525",
 				"xephas-yellow": "#fbaa00",
-				"jovic": "#050505",
-				"xephas-hover":"#1126bf"
+				"xephas-bg": "#ffffff",
+				"xephas-hover":"#1126bf",
+				"handle-bg": "#1a1919",
+				"jovic-background":"#4A90E2"
+				
 			  },
 		},
 		fontFamily: {
