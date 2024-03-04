@@ -10,16 +10,31 @@ import Main from '../components/Main.astro'
 pageUrl="/"
 >
 
- 
- <Main>
+  
+  <div class="  md:bg-[url('/images/home.jpg')] bg-[url('/images/phone.jpg')] bg-cover overflow-hidden h-screen" >  
+
+    <div class="text-white text- h-[100dvh]">
+
+      <div class=" bg-gray-800 bg-opacity-40 h-[100%] flex justify-center items-center flex-col">
+        <p class="md:text-5xl  sm:text-4xl lg:text-6xl text-2xl font-bold md:text-white text-xephas-yellow  pt-28">ONE LOVE BEAUTY SALON</p>
+        <p class="md:text-3xl pt-2 font-thin text-2xl md:text-jovic-bg  text-white  ">Craft Confidence</p>
+      </div>
+     
+    </div>
+  </div>
+
+</div>
 
   <Section>
       
-    <H1 text='coming soon'></H1>
+    <div class="text-center px-4 py-8 md:py-12 lg:px-20 lg:py-16">
+      <h1 class="text-4xl font-bold text-gray-800 mb-4">Relax, Rejuvenate, Beautify</h1>
+      <p class="text-lg leading-loose text-gray-600">Treat yourself to a luxurious experience at One Love Beauty Salon. We offer a wide range of hair, nail, and skincare services performed by experienced and passionate professionals. Discover the difference a relaxing and welcoming environment can make. Book your appointment today and step into a world of beauty and wellness.</p>
+    </div>
+    
 
   </Section>
   
- </Main>
 
 </Layout>
 

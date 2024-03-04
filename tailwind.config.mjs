@@ -13,7 +13,7 @@ export default {
 				"jovic-white" :"#ffffff",
 				"xephas-navy": "#000525",
 				"xephas-yellow": "#fbaa00",
-				"xephas-bg": "#ffffff",
+				"jovic-bg": "#fbaa00",
 				"xephas-hover":"#1126bf",
 				"handle-bg": "#1a1919",
 				"jovic-background":"#4A90E2"
