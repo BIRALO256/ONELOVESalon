@@ -1,0 +1,27 @@
+[debug] [2024-03-04T08:52:05.376Z] ----------------------------------------------------------------------
+[debug] [2024-03-04T08:52:05.381Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting
+[debug] [2024-03-04T08:52:05.382Z] CLI Version:   13.4.0
+[debug] [2024-03-04T08:52:05.383Z] Platform:      win32
+[debug] [2024-03-04T08:52:05.383Z] Node Version:  v18.16.1
+[debug] [2024-03-04T08:52:05.387Z] Time:          Mon Mar 04 2024 11:52:05 GMT+0300 (East Africa Time)
+[debug] [2024-03-04T08:52:05.387Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-03-04T08:52:05.394Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-03-04T08:52:05.645Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-03-04T08:52:05.646Z] > authorizing via signed-in user (dearjovic@gmail.com)
+[debug] [2024-03-04T08:52:05.647Z] [iam] checking project onelovebeautysalon-29ec2 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-03-04T08:52:05.648Z] > refreshing access token with scopes: []
+[debug] [2024-03-04T08:52:05.650Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-03-04T08:52:05.651Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-03-04T08:52:06.389Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-03-04T08:52:06.390Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-03-04T08:52:06.412Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/onelovebeautysalon-29ec2:testIamPermissions [none]
+[debug] [2024-03-04T08:52:06.413Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/onelovebeautysalon-29ec2:testIamPermissions x-goog-quota-user=projects/onelovebeautysalon-29ec2
+[debug] [2024-03-04T08:52:06.413Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/onelovebeautysalon-29ec2:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-03-04T08:52:06.800Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-03-04T08:52:06.800Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2024-03-04T08:52:08.445Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/onelovebeautysalon-29ec2:testIamPermissions 200
+[debug] [2024-03-04T08:52:08.446Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/onelovebeautysalon-29ec2:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-03-04T08:52:08.451Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/onelovebeautysalon-29ec2 [none]
+[debug] [2024-03-04T08:52:09.484Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/onelovebeautysalon-29ec2 200
+[debug] [2024-03-04T08:52:09.484Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/onelovebeautysalon-29ec2 {"projectId":"onelovebeautysalon-29ec2","projectNumber":"1049236040481","displayName":"OneLoveBeautySalon","name":"projects/onelovebeautysalon-29ec2","resources":{"hostingSite":"onelovebeautysalon-29ec2"},"state":"ACTIVE","etag":"1_75655fdc-261c-4e37-b580-1dcd6677e959"}
