@@ -16,7 +16,8 @@ export default {
 				"jovic-bg": "#fbaa00",
 				"xephas-hover":"#1126bf",
 				"handle-bg": "#1a1919",
-				"jovic-background":"#4A90E2"
+				"jovic-background":"#4A90E2",
+				"jovic-text":"#030303"
 				
 			  },
 		},
